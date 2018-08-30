@@ -1,23 +1,42 @@
 body {
-	margin: 20px;
-	background-color: black;
-	color: white;
+	margin:20px;
+	background-color:black;
+	color:white;
 	font-family: Dancing Script;
 }
-
-
-figure img{
-  margin: auto;
-  width: 80%;
-  background-color: #82c3a6;
-  justify-content: center;
-  display: block;
-}
 .caja1{
-  background-color: #82c3a6;
+  background-color:#82c3a6;
   width:100%;
-  margin: 0 auto;
-  border: 2px solid #82c3a6;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin:0 auto;
+  justify-content:center;
+  flex-wrap:wrap;
+  border:1px solid black;
+}
+
+#central .caja1 >figure img{
+  margin:auto;
+  width:80%;
+  background-color:#82c3a6;
+  justify-content:center;
+  display:block;
+  border:1px solid black;
+}
+
+.caja2{
+  background-color:#d5c75f;
+  border:1px solid black;
+  width:100%;
+  margin:0 auto;
+  justify-content:center;
+  flex-flow: column;
+}
+
+#secundarias .caja2 >figure img{
+  background-color:#d5c75f;
+  margin:auto;
+  width:40%;
+  justify-content:center;
+  flex-direction:column;
+  display:inline-grid;
+  wrap:2;
 }
