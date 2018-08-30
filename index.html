@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  	<link rel="stylesheet" href="css/estilos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <style type="text/css">
+      a:link{
+        text-decoration:none;
+        color: white;
+      }
+      a:visited{
+        text-decoration: none;
+        color: hotpink;
+      }
+      <style>
+      #contenido{
+        margin:0 auto;
+        width:900px;
+        background-color: white;
+        border-radius: 10px;
+      }
+      header{
+        width:100%;
+        min-height:100px;
+        display:flex;
+        flex-flow: row wrap;
+      }
+      #titulo{
+        width:50%;
+        background-color: #5b7989;
+        text-indent: 0.5cm;
+        border-radius: 10px 1px 1px 10px;
+      }
+      #menu{
+        width:50%;
+        background-color: #5b7989;
+        border-radius: 1px 10px 10px 1px;
+      }
+      #menu a{
+        padding-top:35px;
+        padding-right: 15px;
+        float: right;
+      }
+      @media only screen and (max-width: 900px) {
+      #contenido{
+        margin:0 auto;
+        width:100%;
+      }
+      #titulo{
+        width:100%;
+        text-align:center;
+      }
+      #menu{
+        width:100%;
+        padding-bottom:15px;
+        padding-left: 30%;
+        padding-right: 30%;
+      }
+      }
+      </style>
+  </head>
+  <body>
+    <div id="contenido">
+      <header>
+        <div id="titulo">
+          <h1>Comenzando con la Fotografía </h1>
+        </div>
+        <div id="menu">
+          <a href="#">Inicio</a>
+          <a href="#">Retratos</a>
+          <a href="#">Paisajes</a>
+        </div>
+        <figure>
+            <img src="img/sunset.jpg" alt="Fotografía Profesional">
+        </figure>
+      </header>
+    </div>
+   </body>
+  </html>

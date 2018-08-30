@@ -1,0 +1,13 @@
+body {
+	margin: 20px;
+	background-color: black;
+	color: white;
+	font-family: Dancing Script;
+}
+
+
+img{
+  width: 50%;
+  border-radius: 10px;
+  background-color: #82c3a6
+}
