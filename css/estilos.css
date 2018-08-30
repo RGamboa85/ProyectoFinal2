@@ -29,6 +29,7 @@ body {
   margin:0 auto;
   justify-content:center;
   flex-flow: column;
+	text-align: center;
 }
 
 #secundarias .caja2 >figure img{
@@ -39,4 +40,5 @@ body {
   flex-direction:column;
   display:inline-grid;
   wrap:2;
+	text-align: center;
 }
