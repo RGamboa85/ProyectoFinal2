@@ -7,7 +7,7 @@ h1{
 
 @media screen and (min-width:900px) {
 	div{
-		width: 900px;
+		width: 100%;
 		text-align:center;
 		margin:auto;
 		display:flex;
@@ -25,6 +25,20 @@ h1{
 		flex-direction:row;
 		flex-wrap:wrap;
 		order:1;
+	}
+	footer{
+		border-radius:0px 0px 9px 9px;
+		background-color:#C6d5c5;
+		width:inherit;
+		order:4;
+		font-family:'Dancing Script', cursive;
+		color:black;
+		margin:auto;
+		text-align:center;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		font-size:15;
 	}
 }
 
@@ -47,6 +61,20 @@ h1{
 		flex-direction:column;
 		flex-wrap:wrap;
 		order:1;
+	}
+	footer{
+		border-radius:0px 0px 9px 9px;
+		background-color:#c6d5c5;
+		width:inherit;
+		order:4;
+		font-family:'Dancing Script', cursive;
+		color:black;
+		margin:auto;
+		text-align:center;
+		display:flex;
+		flex-direction:column;
+		flex-wrap:wrap;
+		font-size:15;
 	}
 }
 
@@ -73,7 +101,7 @@ h1{
 	order:3;
 	width:inherit;
 	padding:4% 0% 2% 0%;
-	font-family:'Dancing Strip', cursive;
+	font-family:'Dancing Script', cursive;
 	color:black;
 	font-size:16;
 	margin:auto;
@@ -86,6 +114,15 @@ h1{
 	margin:auto;
 }
 
+img[src="img/beach.jpg"]:hover{
+	border-style: solid;
+	border-radius: 2px;
+	box-shadow: 2px 2px 0px 0px #82c3a6;
+	transform: rotate(10deg);
+	transition-duration: 1s;
+}
+
+
 a:link, a:visited, a:hover{
   color:white;
 }
@@ -94,4 +131,7 @@ a:link, a:visited, a:hover{
 }
 .linkPaginaActual{
   text-decoration: none;
+}
+picture, img{
+  box-shadow: 2px 2px 0px 0px black;
 }
