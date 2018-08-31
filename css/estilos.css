@@ -14,7 +14,7 @@ body {
 }
 
 #central .caja1 >figure img{
-  margin:auto;
+  margin:0 auto;
   width:85%;
   background-color:#82c3a6;
   justify-content:center;
@@ -31,6 +31,7 @@ body {
   flex-flow:column;
 	text-align:center;
 }
+
 
 #secundarias .caja2 >figure img{
   background-color:#d5c75f;
