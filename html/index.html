@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Proyecto Final de CSS y RWD</title>
+    <meta name="author"  content="Rodeleen Gamboa Acuña">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   	<link rel="stylesheet" href="../css/estilos.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <style type="text/css">
       a:link{
         text-decoration:none;
@@ -62,33 +63,41 @@
       }
       </style>
   </head>
-  <body>
-    <div id="contenido">
-      <header>
-        <div id="titulo">
+  <body bgcolor="#02010a">
+    <div class="contenido">
+      <header class="cabecera">
+        <section ID="cabeceraTitulo">
           <h1>Comenzando con la Fotografía </h1>
-        </div>
-        <navbar id="menu">
-          <a href="#">Retratos</a>
-          <a href="#">Paisajes</a>
-          <a href="#">Inicio</a>
-        </navbar>
-      <section id="central">
-        <div class="caja1">
-          <figure>
-            <img src="../img/woods.jpg" alt="Bosque">
-          </figure>
-        </div>
-      </section>
-      <section id="secundarias">
-        <div class="caja2">
-          <figure>
-            <img src="../img/beach.jpg" alt="Playa">
-            <img src="../img/portrait.jpg" alt="Retrato">
-          </figure>
-        </div>
-      </section>
+        </section>
+        <section ID"cabeceramenu">
+          <a href="retratos.html">Retratos</a>
+          <a href="paisajes.html">Paisajes</a>
+          <a href="inicio.html" class="linkPaginaActual">Inicio</a>
+        </section>
       </header>
+
+      <section class="imagencentral">
+        <picture ID="imagenPrincipal">
+          <source srcset="../img/woods.jpg" media="(min-width:901px)">
+          <source srcset="../img/woods240.jpg" media="(max-width:900px)">
+          <img src="../img/woods.jpg" alt="Bosque">
+        </picture>
+      </section>
+
+      <section class="imagensecundaria">
+        <section class="secundaria">
+          <a href="paisajes.html"><img src="../img/beach.jpg" alt="Playa"></a>
+          <p>Paisajes</p>
+        </section>
+        <section class="secundaria">
+          <a href="retratos.html"><img src="../img/portrait.jpg" alt="Retrato"></a>
+          <p>Retratos</p>
+        </section>
+
+
+          </figure>
+        </div>
+      </section>
     </div>
    </body>
    <footer>

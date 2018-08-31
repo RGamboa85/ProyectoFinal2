@@ -1,3 +1,9 @@
+h1{
+	font-family: 'Dancing Script', cursive;
+	color:white;
+	text-shadow:2px 2px #02010a;
+	font-size: 25;
+}
 body {
 	margin:20px;
 	background-color:black;
