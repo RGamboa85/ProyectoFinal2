@@ -14,7 +14,7 @@ body {
 }
 
 #central .caja1 >figure img{
-  margin:0 auto;
+  margin:auto;
   width:85%;
   background-color:#82c3a6;
   justify-content:center;
