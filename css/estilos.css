@@ -114,7 +114,7 @@ h1{
 	margin:auto;
 }
 
-img[src="img/beach.jpg"]:hover{
+img[src="img/beach720.jpg"]:hover{
 	border-style: solid;
 	border-radius: 2px;
 	box-shadow: 2px 2px 0px 0px #82c3a6;
@@ -122,9 +122,35 @@ img[src="img/beach.jpg"]:hover{
 	transition-duration: 1s;
 }
 
+img[src="img/portrait720.jpg"]:hover{
+	border-style:solid;
+	border-radius:2px;
+	box-shadow:2px 2px 0px 0px #82c3a6;
+	transform:translate(20px, 5px);
+	transition-duration:1s;
+}
+.foot{
+	margin-left:6.5%;
+	text-align: left;
+	justify-content:center;
+	padding-left:1px;
+}
+.imagenblur{
+	margin:auto;
+	-webkit-filter:blur(10px);
+}
+.imagengris{
+	margin:auto;
+	-webkit-filter:grayscale(100%);
+}
+.imagensepia{
+	margin:auto;
+	-webkit-filter:sepia(90%);
+}
 
 a:link, a:visited, a:hover{
   color:white;
+	text-decoration: none;
 }
 .linkPaginaActual{
   text-decoration: none;
