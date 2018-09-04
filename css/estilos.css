@@ -145,9 +145,17 @@ img[src="img/portrait720.jpg"]:hover{
 	justify-content: center;
 	padding-left: 1px;
 }
-.imagensecundaria{
+.blur{
 	margin: auto;
-	-webkit-filter: drop-shadow();
+	-webkit-filter: blur(10px);
+}
+.grayscale{
+	margin: auto;
+	-webkit-filter: grayscale(100%);
+}
+.sepia{
+	margin: auto;
+	-webkit-filter: sepia(90%);
 }
 
 a:link, a:visited, a:hover{
